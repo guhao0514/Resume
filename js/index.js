@@ -199,7 +199,7 @@
 	});
 // 图片轮播
 	$("#exp_list_slider").width($(".exp_list").width());
-	$("#exp_list_content").width($(".exp_list").width()*3);
+	$("#exp_list_content").width($(".exp_list").width()*2);
 	$("#exp_list_slider_content").mouseenter(function(){
 		$("#exp_list_to").stop(true,false).fadeTo(700,1);
 	}).mouseleave(function(){
